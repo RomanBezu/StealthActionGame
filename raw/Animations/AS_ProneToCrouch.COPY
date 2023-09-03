@@ -1,0 +1,22 @@
+Begin Object Class=/Script/Engine.AnimMontage Name="ALS_CLF_GetUp_Front_Montage_Default"
+   Begin Object Class=/Game/AdvancedLocomotionV4/Blueprints/AnimNotifys/MovementAction_NotifyState.MovementAction_NotifyState_C Name="MovementAction_AnimNotify_C_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Name="MovementAction_AnimNotify_C_0"
+      MovementAction=NewEnumerator3
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0"
+   End Object
+   BlendIn=(BlendTime=0.000000)
+   BlendOut=(BlendTime=0.300000,BlendOption=Cubic)
+   CompositeSections(0)=(SectionName="Default",LinkedMontage=AnimMontage'"ALS_CLF_GetUp_Front_Montage_Default"',SegmentIndex=0,SegmentLength=1.500000,LinkedSequence=AnimSequence'"/Game/AdvancedLocomotionV4/CharacterAssets/MannequinSkeleton/AnimationExamples/Actions/ALS_CLF_GetUp_Front.ALS_CLF_GetUp_Front"')
+   SlotAnimTracks(0)=(SlotName="BaseLayer",AnimTrack=(AnimSegments=((AnimReference=AnimSequence'"/Game/AdvancedLocomotionV4/CharacterAssets/MannequinSkeleton/AnimationExamples/Actions/ALS_CLF_GetUp_Front.ALS_CLF_GetUp_Front"',AnimEndTime=1.500000))))
+   Notifies(0)=(TriggerTimeOffset=0.000100,NotifyName="MovementAction_C",NotifyStateClass=MovementAction_NotifyState_C'"MovementAction_AnimNotify_C_0"',Duration=1.158580,EndLink=(LinkedMontage=AnimMontage'"ALS_CLF_GetUp_Front_Montage_Default"',SegmentIndex=0,SegmentLength=1.500000,LinkValue=1.158580,LinkedSequence=AnimSequence'"/Game/AdvancedLocomotionV4/CharacterAssets/MannequinSkeleton/AnimationExamples/Actions/ALS_CLF_GetUp_Front.ALS_CLF_GetUp_Front"'),Guid=65A0A15E48AFD48C85B9459A519F58A9,LinkedMontage=AnimMontage'"ALS_CLF_GetUp_Front_Montage_Default"',SegmentIndex=0,SegmentLength=1.500000,LinkedSequence=AnimSequence'"/Game/AdvancedLocomotionV4/CharacterAssets/MannequinSkeleton/AnimationExamples/Actions/ALS_CLF_GetUp_Front.ALS_CLF_GetUp_Front"')
+   SequenceLength=1.500000
+   RateScale=1.200000
+   RawCurveData=(FloatCurves=((FloatCurve=(Keys=((InterpMode=RCIM_Cubic,TangentMode=RCTM_User,Time=0.752797),(Time=1.131365,Value=1.000000))),Name=(DisplayName="Enable_FootIK_L"),Color=(R=0.177839,G=0.339383,B=0.768628,A=1.000000),CurveTypeFlags=4),(FloatCurve=(Keys=((InterpMode=RCIM_Cubic,Time=0.304807),(Time=0.740865,Value=1.000000))),Name=(DisplayName="Enable_FootIK_R"),Color=(R=0.768628,G=0.177839,B=0.205532,A=1.000000),CurveTypeFlags=4),(FloatCurve=(Keys=((InterpMode=RCIM_Constant),(Time=1.226820,Value=1.000000))),Name=(DisplayName="FootLock_L"),Color=(R=0.177839,G=0.768628,B=0.491696,A=1.000000),CurveTypeFlags=4),(FloatCurve=(Keys=((InterpMode=RCIM_Constant),(Time=1.226820,Value=1.000000))),Name=(DisplayName="FootLock_R"),Color=(R=0.196301,G=0.177839,B=0.768628,A=1.000000),CurveTypeFlags=4),(FloatCurve=(Keys=((InterpMode=RCIM_Cubic,Time=0.837405,Value=-1.000000),(Time=1.202956))),Name=(DisplayName="Layering_Arm_L"),Color=(R=0.177839,G=0.768628,B=0.297843,A=1.000000),CurveTypeFlags=4),(FloatCurve=(Keys=((InterpMode=RCIM_Cubic,Time=0.835236,Value=-1.000000),(Time=1.201872))),Name=(DisplayName="Layering_Arm_R"),Color=(R=0.177839,G=0.436309,B=0.768628,A=1.000000),CurveTypeFlags=4),(FloatCurve=(Keys=((InterpMode=RCIM_Cubic,Time=0.836320,Value=-1.000000),(Time=1.199702))),Name=(DisplayName="Layering_Head"),Color=(R=0.177839,G=0.367076,B=0.768628,A=1.000000),CurveTypeFlags=4),(FloatCurve=(Keys=((InterpMode=RCIM_Cubic,Time=0.836320,Value=-1.000000),(Time=1.202956))),Name=(DisplayName="Layering_Legs"),Color=(R=0.639393,G=0.177839,B=0.768628,A=1.000000),CurveTypeFlags=4),(FloatCurve=(Keys=((InterpMode=RCIM_Cubic,Time=0.836320,Value=-1.000000),(Time=1.202956))),Name=(DisplayName="Layering_Pelvis"),Color=(R=0.177839,G=0.214763,B=0.768628,A=1.000000),CurveTypeFlags=4),(FloatCurve=(Keys=((InterpMode=RCIM_Cubic,Time=0.833066,Value=-1.000000),(Time=1.204041))),Name=(DisplayName="Layering_Spine"),Color=(R=0.768628,G=0.288612,B=0.177839,A=1.000000),CurveTypeFlags=4),(FloatCurve=(Keys=((Value=1.000000),(InterpMode=RCIM_Cubic,TangentMode=RCTM_User,Time=0.839575,Value=1.000000),(Time=1.228989))),Name=(DisplayName="Mask_AimOffset"),Color=(R=0.445540,G=0.177839,B=0.768628,A=1.000000),CurveTypeFlags=4)))
+   AnimNotifyTracks(0)=(TrackName="1",TrackColor=(R=0.500000,G=0.500000,B=0.500000,A=1.000000))
+   Skeleton=Skeleton'"/Game/AdvancedLocomotionV4/CharacterAssets/MannequinSkeleton/ALS_Mannequin_Skeleton.ALS_Mannequin_Skeleton"'
+   ThumbnailInfo=SceneThumbnailInfo'"SceneThumbnailInfo_0"'
+End Object
